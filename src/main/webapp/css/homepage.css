@@ -1,0 +1,110 @@
+
+
+/* body {
+ 
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position: center 0;
+ } */
+ 
+.homepage-header {
+  width:100%;
+  height:300px;
+}
+.homepage-header .head-search {
+  position:absolute;
+  top:35%;
+  left:35%;
+}
+.homepage-header .head-search .search-frame {
+  box-sizing: border-box;
+  width:25vw;
+  height:40px;
+  border-radius:6px;
+}
+.homepage-content{
+  padding-bottom:42px;
+}
+.homepage-content .work-type {
+  background-color:rgb(243,243,245);
+}
+.homepage-content .work-type li{
+  width: 257px;
+  height: 40px;
+  margin: 6px 8px;
+  background-color: #fafafa;
+}
+.homepage-content .work-type li>a {
+  line-height: 40px;
+  text-align: left;
+  padding: 6px;
+}
+.homepage-content .hot-industry {
+  
+  height:312px;
+  width:800px;
+}
+.homepage-content .hot-industry .main-work {
+  height:312px;
+  width:586px;
+}
+.homepage-content .hot-industry .main-work img {
+  height:100%;
+  width:100%;
+}
+.homepage-content .hot-industry .add-work{
+  height:312px;
+}
+
+.homepage-content .hot-industry .work-img {
+  width:257px;
+  height:104px;
+}
+.homepage-content .hot-industry .work-img img {
+  width:100%;
+  height:100%;
+}
+.homepage-footer {
+  padding-top:20px;
+  background-color:rgb(177,183,187);
+}
+.homepage-footer .foot-left {
+  width: 350px;
+  height: 160px;
+  border-right:1px solid rgb(209, 93, 93);
+}
+.homepage-footer .foot-left h3{
+  display:inline-block;
+  padding-right:188px;
+}
+.homepage-footer .foot-left ul>li{
+  display:inline-block;
+  width:150px;
+  height:22px;
+  margin:10px 0px;
+  line-height:22px;
+}
+.homepage-footer .footer-mid{
+  width:350px;
+  height: 160px;
+  padding-left:20px;
+  border-right:1px solid rgb(209, 93, 93);
+}
+.homepage-footer .footer-mid h3{
+  display:inline-block;
+  padding-right:188px;
+}
+.homepage-footer .footer-mid p{
+  width:50%;
+  margin-top:20px;
+}
+.homepage-footer .foot-right{
+  width:140px;
+  height:140px;
+  margin-left:20px;
+}
+.homepage-footer .foot-right>img{
+  width:100%;
+  height:100%;
+}
+

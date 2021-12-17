@@ -1,0 +1,138 @@
+.contain{
+    display: flex;
+    width: 60%;
+    /*margin-top: -120px;*/
+    height: 450px;
+    position: absolute;
+    top: 230px;
+    left: 20%;
+}
+a{
+    color: black;
+}
+.left{
+    width: 35%;
+    margin-right: 10px;
+    background-color: #fcfcfc;
+}
+.left .schWant{
+    height: 48%;
+    border: 1px solid #b0c929;
+    margin-bottom: 14px;
+}
+.left .schWant ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left .schWant ul li{
+    width: 88%;
+    display: inline-block;
+    margin-bottom: 2px;
+    line-height: 400%;
+    text-align: center;
+    /*background-color: #ccc;*/
+    height: 33%;
+    border-bottom: 5px dotted #b0c929;
+}
+.left .schWant ul li img{
+    position: relative;
+    left: -60px;
+    width: 4%;
+}
+.left .schWant ul li.last {
+    border-bottom: none;
+}
+.left .dynamic{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    height: 48%;
+    border: 1px solid #b0c929;
+}
+.left .dynamic .t{
+    width: 88%;
+    margin-bottom: 2px;
+    line-height: 400%;
+    text-align: center;
+    /*background-color: #ccc;*/
+    height: 33%;
+    border-bottom: 5px dotted #b0c929;
+}
+.left .dynamic .t img{
+    position: relative;
+    left: -60px;
+    width: 5%;
+}
+.left .dynamic .dynamicContent{
+    width: 88%;
+    line-height: 450%;
+    text-align: center;
+    height: 33%;
+}
+.left .dynamic .dynamicContent img{
+    position: relative;
+    left: -51px;
+    width: 10%;
+    height: 15%;
+}
+.right{
+    width: 65%;
+    background-color: #fcfcfc;
+    border: 1px solid #b0c929;
+}
+.right .title{
+    height: 50px;
+    border-bottom: 4px dotted #b0c929;
+    line-height: 50px;
+    padding-right: 40px;
+}
+.right .title img{
+    position: relative;
+    left: 40px;
+    width: 3%;
+}
+.right .travelContent{
+    width: 100%;
+    height: 400px;
+}
+.right .travelContent img{
+    width: 100%;
+    height: 97%;
+}
+.left .schWant ul li.hover:hover a{
+    color: #b0c929;
+}
+.right .travelContent table{
+    margin: auto;
+    margin-top: 30px;
+    width: 90%;
+    border-collapse: collapse;
+}
+.right .travelContent table tr{
+    height: 40px;
+}
+.right .travelContent table tr td,
+.right .travelContent table tr th{
+    border: 1px solid black;
+}
+.right .travelContent table tr th{
+    background-color: green;
+}
+body{
+    background-image: none;
+}
+.bgc-img{
+    position: relative;
+}
+.pic{
+    height: 250px;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+/*-------- 12栅格 -----------  */
+.col-md-1 {width: 8.33%;}
+.col-md-2 {width: 16.67%;}
+.col-md-3 {width: 25%;}
+.col-md-4 {width: 33.33%;}
+.col-md-5 {width: 41.67%;}
+.col-md-6 {width: 50%;}
+.col-md-7 {width: 58.33%;}
+.col-md-8 {width: 66.67%;}
+.col-md-9 {width: 75%;}
+.col-md-10 {width: 83.33%;}
+.col-md-11 {width: 91.67%;}
+.col-md-12 {width: 100%;}
+.main{
+    width: 60%;
+    margin: auto;
+}
+.main {
+    display: flex;
+    /*background-color: yellowgreen;*/
+    height: 200px;
+}
+.left{
+    width: 25%;
+    padding: 0 10px;
+}
+.type{
+    /*background-color: yellow;*/
+    border: 1px solid #b0c929;
+}
+.main .type .t {
+    text-align: center;
+    font-size: 15px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #b0c929;
+}
+
+.main  .type .typeList .typeName{
+    padding: 0 20px;
+    /*background-color: gray;*/
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    border-bottom: 1px dotted #b0c929;
+}
+.right{
+    width: 75%;
+}
+.main  .search {
+    /*background-color: gray;*/
+    width: 100%;
+    height: 160px;
+}
+.main  .search .searchLine {
+    height: 100px;
+    /*background-color: yellow;*/
+    border-bottom: 1px solid #b0c929;
+    /*border-radius: 50px;*/
+    width: 100%;
+    padding: 0px 0 10px 100px;
+
+}
+.main  .search .searchLine div{
+    padding-top: 15px;
+}
+.searchLine .search-frame {
+    width: 400px;
+    height: 40px;
+}
+
+input{
+    height: 30px;
+    border-radius: 10px;
+    border-color: #b0c929;;
+}
+.right{
+    border: 1px solid #b0c929;
+    height: 860px;
+}
+.main  .search .hotTopic{
+    display: flex;
+    height: 60px;
+    /*background-color: green;*/
+    width: 100%;
+    border-bottom: 1px solid #b0c929;;
+}
+.main  .search .hotTopic .title{
+    height: 100%;
+    width: 14%;
+    text-align: center;
+    line-height: 60px;
+    /*background-color: pink;*/
+}
+.main  .search .hotTopic .hotList{
+    height: 100%;
+    width: 86%;
+    /*background-color: orange;*/
+    padding-left: 20px;
+}
+.main .detail{
+    /*background-color: red;*/
+    height: 700px;
+}
+
+.toRight{
+    float: right;
+}
+.hot{
+    background-color: #b0c929;;
+    margin: 0 10px;
+    text-align: center;
+    /*height: 30px;*/
+    border-radius: 5px;
+}
+tr{
+    height: 50px;
+}
+table{
+    width: 100%;
+}
+table tr{
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+}
+.first{
+    background-color: #ddd;
+}
+tr:nth-child(odd){
+    background-color: #eee;
+}

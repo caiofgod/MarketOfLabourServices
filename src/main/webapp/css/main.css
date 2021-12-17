@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color:rgb(245,245,245);
+}
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-content {
+  justify-content: center;
+  align-items: center;
+}
+.flex-start {
+  justify-content:flex-start;
+}
+.spacing-around {
+  justify-content: space-around;
+}
+.spacing-between {
+  justify-content: space-between;
+}
+
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.banner {
+  width:100%;
+  height:auto;
+  background-color:rgb(27, 26, 26);
+  opacity:.6;
+}
+.banner .ban-left h1{
+  display: none;
+}
+.banner .ban-left img{
+  margin: 5px 0px;
+}
+.banner .ban-title .pull-list {
+  position: relative;
+}
+.ban-title .pull-list .pull-list-item{
+  position: absolute;
+  top: 58px;
+  left: -10px;
+  display:none;
+  z-index:10;
+  overflow: hidden;
+  /* max-height: 0; */
+  width: 124px;
+  line-height: 8px;
+  background-color: rgb(63, 58, 58);
+  text-align: center;
+  transition: .3s;
+  border-radius: 4px;
+}
+.pull-list-item a {
+  margin: 0;
+  color: #fff;
+}
+.pull-list-item a:hover {
+  color: #ff7200;
+}
+.pull-list:hover .pull-list-item {
+  display: block;
+  /* max-height: 500px; */
+}
+.ban-right li a,
+.ban-left li a{
+ color:rgb(227, 236, 226);
+}
+
+.ban-right ul {
+  width: auto;
+  height:54px;
+}
+.ban-right ul li,
+.ban-left  ul li{
+ padding: 20px 20px;
+}
+.ban-left li:hover,
+.ban-right li:hover{
+ opacity:.6;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.woff2?t=1639279811687') format('woff2'),
+         url('../font/iconfont.woff?t=1639279811687') format('woff'),
+         url('../font/iconfont.ttf?t=1639279811687') format('truetype');
+  }
+  .icon-butt:after {
+    content:'\e8d6';
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    color:black;
+  }
+  .icon-butt {
+      width:70px;
+      height:40px;
+      background-color:rgb(78,110,242);
+      border: 1px solid #ccc;
+      border-radius:6px;
+  }
+  .icon-butt:hover {
+    background-color:rgb(70,98,217);
+  }

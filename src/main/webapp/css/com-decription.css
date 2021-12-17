@@ -1,0 +1,63 @@
+.bgc-img{
+  width: 100%;
+  height: 240px;
+  background-color: rgb(10, 10, 10);
+  background:url("../image/contact/head-image.jpg") no-repeat;
+  background-size: cover;
+}
+.com-detail{
+  position:relative;
+  width:100%;
+  height:auto;
+}
+.com-box{
+  position:absolute;
+  top: -50px;
+  left:150px;
+  width:70%;
+  height:auto;
+  /*overflow:hidden;*/
+  background-color:#fafafa;
+  background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+  padding:20px;
+  border:1px solid #ccc;
+}
+.intro-head>h2{
+  margin:20px 40px;
+}
+.intro-head>p{
+  position: absolute;
+  top: 40px;
+
+  width: 120px;
+  height: 40px;
+  background-color:rgb(212, 148, 105);
+  line-height: 40px;
+  text-align:center;
+  border: 1px solid #c1c1c1;
+  border-radius: 10px;
+}
+.intro-head .get{
+  right: 80px;
+}
+.intro-head .set{
+  right: 250px;
+}
+.intro-head p>a{
+  color:#fff;
+}
+
+.intro-head p:hover{
+  opacity: .6;
+}
+.com-box .com-content li{
+  margin:30px 40px;
+}
+.com-box .com-content li>p{
+  font-size:20px;
+  text-align:justify;
+}
+.com-box .com-content li:nth-of-type(5)>p:nth-of-type(2),
+.com-box .com-content li:nth-of-type(5)>p:last-of-type{
+  text-indent:2em;
+}

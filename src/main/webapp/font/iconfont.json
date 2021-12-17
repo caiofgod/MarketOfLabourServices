@@ -1,0 +1,23 @@
+{
+  "id": "3003832",
+  "name": "iconfont",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2076426",
+      "name": "搜索小",
+      "font_class": "sousuoxiao",
+      "unicode": "e8d6",
+      "unicode_decimal": 59606
+    },
+    {
+      "icon_id": "5387689",
+      "name": "地点定位",
+      "font_class": "didiandingwei",
+      "unicode": "eb31",
+      "unicode_decimal": 60209
+    }
+  ]
+}
